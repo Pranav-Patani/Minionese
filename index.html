@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minionese</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1 class="hero-heading">Let's Speak Minionese!</h1>
+    </header>
+
+    <section class="container">
+      <div clas="userInput">
+        <textarea
+          id="txt-input"
+          placeholder="Enter the text in english and watch it go bananas!"
+        ></textarea>
+        <a
+          style="
+            text-decoration: none;
+            color: var(--text-color);
+            text-align: center;
+          "
+          href="#output"
+          ><button id="btn-translate">Translate</button></a
+        >
+      </div>
+
+      <h3 class="output-heading">Out will come here! 👇</h3>
+
+      <div id="output"></div>
+    </section>
+
+    <footer>
+      <div style="background-color: var(--primary-color); padding: 5rem"></div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
