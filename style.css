@@ -35,10 +35,9 @@ body {
 }
 
 .container {
-  margin: 1rem auto;
+  padding: 1rem auto;
   display: flex;
   flex-direction: column;
-  border-radius: 10rem;
 }
 
 #txt-input {

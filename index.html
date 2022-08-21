@@ -7,37 +7,44 @@
     <title>Minionese</title>
     <link rel="stylesheet" href="/style.css" />
   </head>
+
   <body>
     <header class="hero">
-      <h1 class="hero-heading">Let's Speak Minionese!</h1>
+      <h1 class="hero-heading">Let's talk Minionese!</h1>
     </header>
 
     <section class="container">
-      <div clas="userInput">
-        <textarea
-          id="txt-input"
-          placeholder="Enter the text in english and watch it go bananas!"
-        ></textarea>
-        <a
-          style="
-            text-decoration: none;
-            color: var(--text-color);
-            text-align: center;
-          "
-          href="#output"
-          ><button id="btn-translate">Translate</button></a
-        >
+      <div>
+        <div clas="userInput">
+          <textarea
+            id="txt-input"
+            placeholder="Enter the text in english and watch it go bananas!"
+          ></textarea>
+          <a
+            style="
+              text-decoration: none;
+              color: var(--text-color);
+              text-align: center;
+            "
+            href="#output"
+            ><button id="btn-translate">Translate</button></a
+          >
+        </div>
+
+        <h3 class="output-heading">The Output will get displayed below! 👇</h3>
+
+        <div id="output"></div>
       </div>
-
-      <h3 class="output-heading">Out will come here! 👇</h3>
-
-      <div id="output"></div>
     </section>
 
-    <footer>
-      <div style="background-color: var(--primary-color); padding: 5rem"></div>
+    <footer style="background-color: var(--primary-color); padding: 2rem">
+      <h3>About the translator</h3>
+      <p>
+        If you are familiar with minions, you will love this translator. This
+        translator translates text from english language to minion language.
+        <strong>Have FUN!</strong>
+      </p>
     </footer>
-
     <script src="/script.js"></script>
   </body>
 </html>
