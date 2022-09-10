@@ -15,7 +15,7 @@ function errorHandler(error) {
 
 function clickHandler() {
   const inputTxt = txtInput.value;
- 
+
   fetch(getServerURL(inputTxt))
     .then((response) => response.json())
     .then((json) => {
