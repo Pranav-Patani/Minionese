@@ -20,4 +20,5 @@ You can refer to the below images to understand the web-app better.
 
 ![output field](images/output.png)
 
+***
 #### HAVE FUN TALKING MINIONESE!
